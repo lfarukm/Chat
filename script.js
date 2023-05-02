@@ -1,9 +1,9 @@
 const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
+    sidebar = body.querySelector('nav'),
+    toggle = body.querySelector(".toggle"),
+    searchBtn = body.querySelector(".search-box"),
+    modeSwitch = body.querySelector(".toggle-switch"),
+    modeText = body.querySelector(".mode-text");
 
 
 toggle.addEventListener("click" , () =>{
@@ -25,9 +25,26 @@ modeSwitch.addEventListener("click" , () =>{
     }
 });
 
-
 function togglePassword() {
     var element = document.getElementById('password');
     element.type = (element.type == 'password' ? 'text' : 'password');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

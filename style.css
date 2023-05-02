@@ -328,6 +328,22 @@ body.dark .home .text{
     border-radius: 3rem 1rem;
 }
 
+.unuttum-box{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/arkaplan.jpg);
+    width: 35%;
+    height: 45vh;
+    margin: auto;
+    border-radius: 3rem 1rem;
+}
+
+.sifre_unuttum-box{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/arkaplan.jpg);
+    width: 35%;
+    height: 55vh;
+    margin: auto;
+    border-radius: 3rem 1rem;
+}
+
 .bg-anim-area{
     background: #4e54c8;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
@@ -454,3 +470,35 @@ body.dark .home .text{
     }
 
 }
+
+
+
+@media screen and (max-width:800px) {
+    .context{
+        padding: 5px;
+    }
+    .register-box{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .unuttum-box{
+        width: 100%;
+    }    
+
+    .sifre_unuttum-box{
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -41,6 +41,7 @@ body.dark{
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
     --text-color: #ccc;
+    
 }
 
 /* ===== Sidebar ===== */
@@ -292,6 +293,7 @@ body.dark .switch::before{
     background-color: var(--body-color);
     transition: var(--tran-05);
 }
+
 .home .text{
     font-size: 30px;
     font-weight: 500;
@@ -307,10 +309,36 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
+body.dark .container-sm {
+    color: #ccc;
+}
+body.dark .offcanvas{
+    background-color: #18191a;
+    color: white;
+}
+body.dark .btn-close{
+    background-image: url(https://www.nicepng.com/png/full/128-1281855_buy-online-transparent-white-x-png.png);
+}
+body.dark .modal-content{
+    background-color: #3a3b3c;
+}
+body.dark .sa{
+    background-color: #272727;
+}
 
 .sa{
     height: 3rem;
     margin-bottom: 7px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+
+@media screen and (max-width:575.20px){
+    .sidebar{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
 }

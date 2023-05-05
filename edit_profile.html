@@ -4,98 +4,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Profili Düzenle</title>
+    <!----======== CSS ======== -->
     <link rel="stylesheet" href="style.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+    <title>Profil_2</title>
 </head>
 <body>
-  
-  <div class="container-fluid  " >
-    <div class="row" >
-      <div class="col-md-4 bg-primary bg-opacity-50 text-md-center " id="border_col1" >
-        <img  src="pp.jpg" alt="" width="200" class="rounded-circle m-md-5 " >
-        
+     <title>Anasayfa</title> 
+</head>
+<body>
+    <nav class=" sidebar close">
+        <header>
+            <div class="image-text " >
+                <span class="image">
+                    <img src="pp.jpg" alt="" >
+                </span>
 
-    <div class="ekle_sil">
-      <i class="fa-sharp fa-solid fa-trash-can fa-lg"></i>
-      <i class="fa-sharp fa-regular fa-square-plus fa-lg"></i>
-      
-    </div>
-    <div class="hakkinda mt-md-4">
-      <p>Hakkımda</p>
-      <textarea name="" id="hakkinda_text" cols="40" rows="8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</textarea>  
-    </div>
-    <button type="button" class="btn btn-primary bg-opacity-50 " id="button2">Kaydet</button>
-
-      </div>
-      <div class="col-md-8">
-        <div class="container" >
-          <div class="row mx-md-5 mt-md-5">
-            <div class="col-md-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle-fill" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312V4.002Z"/>
-              </svg>
-              <!-- <span id="text_profile" >PROFİL</span> -->
-             <h2 class="text_profile">PROFİL</h2>
-             <br>
-          
-             <label for="" class="label">Ad</label>
-             <input type="text" class="input" placeholder="Ad">
-
-             <label for=""  class="label">Soyad</label>
-             <input type="text" class="input" placeholder="Soyad">
-
-             <label for=""  class="label">Kullanıcı Adı</label>
-             <input type="text" class="input" placeholder="Kulanıcı Adı">
-
-             <label for=""  class="label">E-mail</label>
-             <input type="email" class="input" placeholder="E-mail" >
-
+                <div class="text logo-text">
+                    <span class="name">İrfan Abliz</span>
+                </div>
             </div>
 
-            <div class="col-md-4">
-              <label for="" class="label_tel">Telefon Numarası</label>
-              <input type="tel" class="input" placeholder="(537)">
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
 
-              <label for="" class="label">Ülke</label>
-              <input type="text" class="input" placeholder="Ülke">
+        <div class="menu-bar">
+            <div class="menu">
+                
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+                
+                
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Anasayfa</span>
+                        </a>
+                    </li> 
 
-              <label for="" class="label">Şehir</label>
-              <input type="text" class="input" placeholder="Şehir">
-              
-              
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-user icon' ></i>
+                            <span class="text nav-text">Profil</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon'></i>
+                            <span class="text nav-text">Bildirim</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Beğeni</span>
+                        </a>
+                    </li>
+
+
+                
             </div>
 
-            <div class="col-md-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z"/>
-              </svg>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Çıkış yap</span>
+                    </a>
+                </li>
 
-              <h2 class="text_profile">ŞİFRE</h2>
-              <br>
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
 
-              <label for="" class="label">Eski Şifre</label>
-              <input type="password" class="input" placeholder="***********">
-
-              <label for="" class="label">Yeni Şifre</label>
-              <input type="password" class="input" placeholder="***********">
-
-              <label for="" class="label">Şifre Tekrar</label>
-              <input type="password" class="input" placeholder="***********">
-              <button type="button" class="btn btn-primary bg-opacity-50 btn-sm" id="button1">Kaydet</button>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
             </div>
-            
+        </div>
+
+    </nav>
+    <nav class="d-sm-none navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-     
-   
-    </div>
-  </div>
+      </nav>
+    <section class="home">
+        <div class="container-fluid" id="container_profil">
+            <div class="row">
+                <div class="col-md-5 text-md-center">
+                    <img  src="pp.jpg" alt="" width="200" class="rounded-circle m-md-5 " >
+                    <div class="ekle_sil ">
+                        <span><i id="sil" class="fa-solid me-md-2 fa-trash-can"  title="Prfil resmini sil"></i></span>
+                        <span><i id="ekle" class="fa-regular fa-square-plus fa-lg"  title="Profil resmi ekle"></i></span>
+                    </div>
+                    <h5 class="hakkimda_p m-3">Hakkımda</h5>
+                    <textarea name="" id="hakkinda_text" cols="40" rows="8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</textarea>  
+                    <button type="button" class="btn bg-opacity-50 " id="button2">Kaydet</button>
+                    
+                </div>
+                <div class="col-7" id="col2">
+                    <div class="container " >
+                    <div class="row mx-md-5 mt-md-5">
+                      <div class="col-md-4">
+                        
+                        <!-- <span id="text_profile" >PROFİL</span> -->
+                       <h2 class="text_profile">PROFİL</h2>
+                       <br>
+                    
+                       <label for="" class="label_pr">Ad</label>
+                       <input_pr type="text" class="input_pr" placeholder="Ad">
+          
+                       <label for=""  class="label_pr">Soyad</label>
+                       <input_pr type="text" class="input_pr" placeholder="Soyad">
+          
+                       <label for=""  class="label_pr">Kullanıcı Adı</label>
+                       <input_pr type="text" class="input_pr" placeholder="Kulanıcı Adı">
 
-  <script src="script.js"></script>
+                       <label for=""  class="label_pr">E-mail</label>
+                     <input_pr type="email" class="input_pr" placeholder="E-mail" >
+                    </div>
+                    <div class="col-md-4">
+                      <label for="" class="label_tel ">Telefon Numarası</label>
+                      <input_pr type="tel" class="input_pr" placeholder="+(090)">
+        
+                      <label for="" class="label_pr">Ülke</label>
+                      <input_pr type="text" class="input_pr" placeholder="Ülke">
+        
+                      <label for="" class="label_pr">Şehir</label>
+                      <input_pr type="text" class="input_pr" placeholder="Şehir">
+                    </div>
+                    <div class="col-md-4">
+                      
+        
+                        <h2 class="text_profile">ŞİFRE</h2>
+                        <br>
+          
+                        <label for="" class="label_pr">Eski Şifre</label>
+                        <input_pr type="password" class="input_pr" placeholder="***********">
+          
+                        <label for="" class="label_pr">Yeni Şifre</label>
+                        <input_pr type="password" class="input_pr" placeholder="***********">
+          
+                        <label for="" class="label_pr">Şifre Tekrar</label>
+                        <input_pr type="password" class="input_pr" placeholder="***********">
+                        <button type="button" class="btn  bg-opacity-50 " id="button1">Kaydet</button>
+                      </div>
+          </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+  
+
 </body>
 </html>

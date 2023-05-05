@@ -309,6 +309,59 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
+
+.container{
+height: 93vh;;
+}
+#border_col1{
+    border-radius: 15px;
+}
+.text_profile{
+    
+display: inline-block;
+margin-right: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+color: rgba(0, 0, 0, 0.3);   
+margin-bottom:4ch;
+
+}
+.label{
+    margin-bottom: 10px;
+}
+.label_tel{
+    margin-top: 11ch;
+    margin-bottom: 12px;
+}
+.input{
+    width: 90%;
+    padding:10px;
+    margin-bottom: 20px;
+    border: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
+#button1{
+    width: 90%;
+    margin-top: 4ch;
+    padding: 10px;
+}
+#button2{
+    width: 40%;
+    margin-top: 2ch;
+}
+#hakkinda_text{
+    
+    width:90%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(201, 82, 82, 0.06);
+    height:150px;
+}
+
 body.dark .container-sm {
     color: #ccc;
 }
@@ -622,16 +675,3 @@ body.dark .chat .content .message-form{
 body.dark .chat .content .message-form{
     border-top: 1px solid #534b4b;
 }
-
-
-
-body, html {
-	scrollbar-face-color:#3090CF;
-	scrollbar-highlight-color:#6CCCFF;
-	scrollbar-3dlight-color:#8AEAFF;
-	scrollbar-darkshadow-color:#005E9D;
-	scrollbar-shadow-color:#1272B1;
-	scrollbar-arrow-color:#8AEAFF;
-	scrollbar-track-color:#4EAEED;
-}
-

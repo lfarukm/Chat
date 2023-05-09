@@ -1,17 +1,27 @@
 /* Google Font Import - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    
+
 }
+
+
 
 :root{
     /* ===== Colors ===== */
     --body-color: #E4E9F7;
     --sidebar-color: #FFF;
-    --primary-color: #695CFE;
+    /* --primary-color: #695CFE; */
+    
+    --primary-color:#7240e7;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
     --text-color: #707070;
@@ -41,7 +51,10 @@ body.dark{
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
     --text-color: #ccc;
-    
+
+}
+.image_text{
+    border-radius: 100%;
 }
 
 /* ===== Sidebar ===== */
@@ -159,6 +172,7 @@ body.dark .sidebar header .toggle{
     color: var(--text-color);
 }
 
+
 .sidebar.close .toggle{
     transform: translateY(-50%) rotate(0deg);
 }
@@ -210,6 +224,7 @@ body.dark .sidebar li a:hover .icon,
 body.dark .sidebar li a:hover .text{
     color: var(--text-color);
 }
+
 
 .sidebar .menu-bar{
     height: calc(100% - 55px);
@@ -290,7 +305,10 @@ body.dark .switch::before{
     left: 250px;
     height: 100vh;
     width: calc(100% - 250px);
-    background-color: var(--body-color);
+    /* background-color: var(--body-color); */
+    
+    
+    
     transition: var(--tran-05);
 }
 
@@ -301,11 +319,13 @@ body.dark .switch::before{
     padding: 12px 60px;
 }
 
+
 .sidebar.close ~ .home{
     left: 78px;
     height: 100vh;
     width: calc(100% - 78px);
 }
+
 body.dark .home .text{
     color: var(--text-color);
 }
@@ -320,6 +340,306 @@ body.dark #container_profil{
 body.dark #col2{
     background-color: #f3f3f59a;
     
+
+
+
+
+
+/* REGİSTER / LOGİN */
+/* REGİSTER */
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:16vh;
+
+    top: 18vh;
+}
+
+.register-box{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/arkaplan.jpg);
+    width: 35%;
+    height: 65vh;
+    margin: auto;
+    border-radius: 3rem 1rem;
+}
+
+.unuttum-box{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/arkaplan.jpg);
+    width: 35%;
+    height: 45vh;
+    margin: auto;
+    border-radius: 3rem 1rem;
+}
+
+.sifre_unuttum-box{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/arkaplan.jpg);
+    width: 35%;
+    height: 55vh;
+    margin: auto;
+    border-radius: 3rem 1rem;
+}
+
+.bg-anim-area{
+
+.area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100vh;
+
+    position:absolute;
+    z-index:-1;
+    top:0px;
+    left:0px;
+   
+}
+
+.bg-anim-circles{
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg-anim-circles li{
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: bg-anim-animate 25s linear infinite;
+
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.bg-anim-circles li:nth-child(1){
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.bg-anim-circles li:nth-child(2){
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.bg-anim-circles li:nth-child(3){
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.bg-anim-circles li:nth-child(4){
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.bg-anim-circles li:nth-child(5){
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.bg-anim-circles li:nth-child(6){
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.bg-anim-circles li:nth-child(7){
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.bg-anim-circles li:nth-child(8){
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.bg-anim-circles li:nth-child(9){
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.bg-anim-circles li:nth-child(10){
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes bg-anim-animate {
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+/* Bildirim sayfası */
+.bildirim-parent{
+    width: 100%;
+    height: 100vh;
+    background-color: #695CFE;
+}
+
+.tabcontent{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.tab{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tablinks{
+    background-color: transparent;
+    border: none;
+    width: 48%;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.tablinks.active{
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .context{
+        padding: 5px;
+    }
+    .register-box{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .unuttum-box{
+        width: 100%;
+    }    
+
+    .sifre_unuttum-box{
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .bildirim_baslik{
+        font-size: large;
+    }
+
+    .bildirim-parent{
+        height: 120vh;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+#container_profil{
+    background-color:#5c22e2e8;
+    height: 100vh;
+
+.container{
+height: 93vh;;
+}
+#border_col1{
+    border-radius: 15px;
+
+
+}
+body.dark #container_profil{
+    background-color: #000f0d;
+   
+}
+body.dark #col2{
+    background-color: #f3f3f59a;
+    /* color: #272729; */
 }
 body.dark #ekle:hover{
 color: #d9ebe8dc;
@@ -334,6 +654,10 @@ body.dark #sil:hover{
 
 #sil:hover{
       color:  #10052b;
+
+ 
+      color:  #10052b;
+      
      -webkit-transition:all 1s ease;
   -moz-transition:all 1s ease;
   -o-transition:all 1s ease;
@@ -341,6 +665,13 @@ body.dark #sil:hover{
   transition:all 1s ease ease-in-out;
   -webkit-transform: scale(2,2);
   transform: scale(1.5,1.5);
+
+         
+  /* -webkit-transform: rotate(360deg) scale(2, 2);
+  -ms-transform: rotate(360deg) scale(0, 0); 
+   -moz-transform: rotate(360deg) scale(0, 0); 
+  -o-transform: rotate(360deg) scale(0, 0); 
+   transform: rotate(360deg) scale(0, 0); */
 } 
 #ekle:hover{
     color:  #08051db0;
@@ -379,6 +710,20 @@ margin-bottom:2ch;
     margin:  20px 0px 8px 8px ;
 }
 .input_pr,.input_ulke,#input_sehir{
+
+}
+.label_pr{
+    margin-bottom: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size:medium ;
+    
+}
+
+.label_tel{
+    margin-top: 73px;
+    margin-bottom: 10px;
+}
+.input_pr{
     width: 90%;
     padding:10px;
     margin-bottom: 20px;
@@ -413,6 +758,11 @@ margin-bottom:2ch;
     box-shadow: rgba(149, 157, 165, 0.849) 0px 8px 24px;
     /* box-shadow: 0 8px 12px 0 rgba(133, 223, 171, 0.452); */
 
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 110, 0.808);
+    
+    /* box-shadow: 0px 8px 14px 0 rgba(133, 223, 171, 0.308); */
+    box-shadow: rgba(149, 157, 165, 0.849) 0px 8px 24px;
+
     
 }
 #button1:hover{
@@ -433,6 +783,14 @@ margin-bottom:2ch;
     color: #fff;
     cursor: pointer; 
     margin: 20px;
+
+    
+    width: 180px;
+    font-size: px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer; 
+     margin: 20px;
     height: 45px;
     border: none;
     background-size: 300% 100%;
@@ -461,6 +819,8 @@ margin-bottom:2ch;
 .hakkimda_p{
     color: #FFF;
 }
+
+
 #hakkinda_text{
     
     width:80%;
@@ -471,6 +831,17 @@ margin-bottom:2ch;
     box-shadow:4px 4px 10px rgba(201, 82, 82, 0.06);
     height:150px;
 }
+
+@media screen and(max-width:575.20px) {
+  
+    .sidebar.close{
+    display: none !important;
+ }
+    
+}
+
+    
+
 
 
 body.dark .container-sm {
@@ -517,7 +888,6 @@ body.dark .sa{
     outline: 0;
 }
 
-html,
 body {
     height: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -786,3 +1156,4 @@ body.dark .chat .content .message-form{
 body.dark .chat .content .message-form{
     border-top: 1px solid #534b4b;
 }
+

@@ -12,11 +12,9 @@
     
 
 }
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
+
 :root{
     /* ===== Colors ===== */
     --body-color: #E4E9F7;
@@ -331,25 +329,31 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
+#container_profil{
+    background-color:#5c22e2e8;
+    height: 100vh;
+}
+body.dark #container_profil{
+    background-color: #000f0d;
+   
+}
+body.dark #col2{
+    background-color: #f3f3f59a;
+    
 
 
 
-<<<<<<< Updated upstream
+
 
 /* REGİSTER / LOGİN */
-=======
 /* REGİSTER */
->>>>>>> Stashed changes
 
 .context {
     width: 100%;
     position: absolute;
-<<<<<<< Updated upstream
     top:16vh;
 
-=======
     top: 18vh;
->>>>>>> Stashed changes
 }
 
 .register-box{
@@ -360,7 +364,6 @@ body.dark .home .text{
     border-radius: 3rem 1rem;
 }
 
-<<<<<<< Updated upstream
 .unuttum-box{
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(img/arkaplan.jpg);
     width: 35%;
@@ -378,14 +381,13 @@ body.dark .home .text{
 }
 
 .bg-anim-area{
-=======
+
 .area{
->>>>>>> Stashed changes
     background: #4e54c8;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;
-<<<<<<< Updated upstream
+
     position:absolute;
     z-index:-1;
     top:0px;
@@ -394,13 +396,11 @@ body.dark .home .text{
 }
 
 .bg-anim-circles{
-=======
     
    
 }
 
 .circles{
->>>>>>> Stashed changes
     position: absolute;
     top: 0;
     left: 0;
@@ -409,31 +409,24 @@ body.dark .home .text{
     overflow: hidden;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li{
-=======
 .circles li{
->>>>>>> Stashed changes
     position: absolute;
     display: block;
     list-style: none;
     width: 20px;
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
-<<<<<<< Updated upstream
     animation: bg-anim-animate 25s linear infinite;
-=======
+
     animation: animate 25s linear infinite;
->>>>>>> Stashed changes
     bottom: -150px;
     
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(1){
-=======
+
 .circles li:nth-child(1){
->>>>>>> Stashed changes
     left: 25%;
     width: 80px;
     height: 80px;
@@ -441,11 +434,9 @@ body.dark .home .text{
 }
 
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(2){
-=======
+
 .circles li:nth-child(2){
->>>>>>> Stashed changes
     left: 10%;
     width: 20px;
     height: 20px;
@@ -453,22 +444,18 @@ body.dark .home .text{
     animation-duration: 12s;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(3){
-=======
+
 .circles li:nth-child(3){
->>>>>>> Stashed changes
     left: 70%;
     width: 20px;
     height: 20px;
     animation-delay: 4s;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(4){
-=======
+
 .circles li:nth-child(4){
->>>>>>> Stashed changes
     left: 40%;
     width: 60px;
     height: 60px;
@@ -476,44 +463,35 @@ body.dark .home .text{
     animation-duration: 18s;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(5){
-=======
+
 .circles li:nth-child(5){
->>>>>>> Stashed changes
     left: 65%;
     width: 20px;
     height: 20px;
     animation-delay: 0s;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(6){
-=======
+
 .circles li:nth-child(6){
->>>>>>> Stashed changes
     left: 75%;
     width: 110px;
     height: 110px;
     animation-delay: 3s;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(7){
-=======
+
 .circles li:nth-child(7){
->>>>>>> Stashed changes
     left: 35%;
     width: 150px;
     height: 150px;
     animation-delay: 7s;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(8){
-=======
 .circles li:nth-child(8){
->>>>>>> Stashed changes
     left: 50%;
     width: 25px;
     height: 25px;
@@ -521,11 +499,9 @@ body.dark .home .text{
     animation-duration: 45s;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(9){
-=======
+
 .circles li:nth-child(9){
->>>>>>> Stashed changes
     left: 20%;
     width: 15px;
     height: 15px;
@@ -533,11 +509,9 @@ body.dark .home .text{
     animation-duration: 35s;
 }
 
-<<<<<<< Updated upstream
 .bg-anim-circles li:nth-child(10){
-=======
+
 .circles li:nth-child(10){
->>>>>>> Stashed changes
     left: 85%;
     width: 150px;
     height: 150px;
@@ -547,11 +521,9 @@ body.dark .home .text{
 
 
 
-<<<<<<< Updated upstream
 @keyframes bg-anim-animate {
-=======
+
 @keyframes animate {
->>>>>>> Stashed changes
 
     0%{
         transform: translateY(0) rotate(0deg);
@@ -568,7 +540,6 @@ body.dark .home .text{
 }
 
 
-<<<<<<< Updated upstream
 /* Bildirim sayfası */
 .bildirim-parent{
     width: 100%;
@@ -602,18 +573,16 @@ body.dark .home .text{
 .tablinks.active{
     border-bottom: 1px solid white;
 }
-=======
 
 
 
 
 
->>>>>>> Stashed changes
 
 
 
 
-<<<<<<< Updated upstream
+
 @media screen and (max-width:800px) {
     .context{
         padding: 5px;
@@ -684,6 +653,8 @@ body.dark #sil:hover{
 }
 
 #sil:hover{
+      color:  #10052b;
+
  
       color:  #10052b;
       
@@ -694,6 +665,7 @@ body.dark #sil:hover{
   transition:all 1s ease ease-in-out;
   -webkit-transform: scale(2,2);
   transform: scale(1.5,1.5);
+
          
   /* -webkit-transform: rotate(360deg) scale(2, 2);
   -ms-transform: rotate(360deg) scale(0, 0); 
@@ -728,6 +700,20 @@ margin-bottom:2ch;
 }
 .label_pr{
     margin-bottom: 8px;
+    font-size:medium ;
+    margin-left: 8px;
+}
+.label_tel{ 
+    margin:  73px 0 10px 8px;   
+}
+.label_ulke{
+    margin:  20px 0px 8px 8px ;
+}
+.input_pr,.input_ulke,#input_sehir{
+
+}
+.label_pr{
+    margin-bottom: 8px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-size:medium ;
     
@@ -745,6 +731,15 @@ margin-bottom:2ch;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     border-radius: 5px;
 }
+#phone{
+    width: 190px; 
+    padding-top:10px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border: 0;    
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
 #button1{
     width: 90%;
     margin-top: 2em;
@@ -759,6 +754,10 @@ margin-bottom:2ch;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    
+    box-shadow: rgba(149, 157, 165, 0.849) 0px 8px 24px;
+    /* box-shadow: 0 8px 12px 0 rgba(133, 223, 171, 0.452); */
+
     box-shadow: 0 4px 15px 0 rgba(49, 196, 110, 0.808);
     
     /* box-shadow: 0px 8px 14px 0 rgba(133, 223, 171, 0.308); */
@@ -779,6 +778,12 @@ margin-bottom:2ch;
     
     margin-top: 2ch;
     background-color: #08051db0;
+    width: 180px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer; 
+    margin: 20px;
+
     
     width: 180px;
     font-size: px;
@@ -1151,6 +1156,4 @@ body.dark .chat .content .message-form{
 body.dark .chat .content .message-form{
     border-top: 1px solid #534b4b;
 }
-=======
->>>>>>> Stashed changes
 
